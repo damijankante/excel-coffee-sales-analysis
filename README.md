@@ -31,16 +31,20 @@ The Excel dashboard includes the following interactive elements:
 ## 🖼️ Visualizations (Screenshots)
 
 **Main Dashboard View:**
+
 ![Main Dashboard](images/Coffee_Sales_Analysis_Dashboard.png)
 
-**Sales by Country Chart:**
-![Sales by Country](images/Coffee_Sales_Analysis_Total_Sales_by_Country_Chart.png)
+**Total Sales Over Time Chart:**
+
+![Total Sales Over Time](images/Coffee_Sales_Analysis_Total_Sales_Over_Time_Chart.png)
 
 **Top 5 Customers Chart:**
+
 ![Top 5 Customers](images/Coffee_Sales_Analysis_Top_5_Customers_Chart.png)
 
 **Sales by Country Chart:**
-![Top 5 Customers](images/Coffee_Sales_Analysis_Total_Sales_by_Country_Chart.png)
+
+![Total_Sales by Country](images/Coffee_Sales_Analysis_Total_Sales_by_Country_Chart.png)
 
 ## 💾 Data Source
 
@@ -51,7 +55,7 @@ The data used includes 3 sample datasets of:
 
 ## 🚀 How to Use / Explore
 
-1.  **Download the Excel file:** `excel_file/Coffee_Sales_Analysis_Dashboard.xlsx`
+1.  **Download the Excel file:** [Coffee Sales Analysis Dashboard Workbook](excel_file/Coffee_Sales_Analysis_Dashboard.xlsx)
 2.  Open the file in Microsoft Excel.
 3.  Interact with the timeline and slicers on the 'Dashboard' sheet to filter the data and observe changes in the charts.
 
