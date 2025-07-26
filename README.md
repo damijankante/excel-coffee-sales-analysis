@@ -2,21 +2,17 @@
 
 ## Project Overview
 
-This project demonstrates advanced Excel data analysis and dashboard creation using a coffee sales dataset. The goal was to identify sales trends, top-performing products/regions, and key customer segments through an interactive dashboard.
+This project provides a comprehensive sales analysis for a coffee business, delivering actionable insights to drive revenue growth and optimize marketing spend. By creating an interactive dashboard, stakeholders can now instantly identify top-performing products, pinpoint key geographic markets, and understand the purchasing behavior of their most valuable customers.
 
 ## 📊 Dashboard Features
 
 The Excel dashboard includes the following interactive elements:
 
-*   **Timeline:** Allows filtering sales data over specific periods.
-*   **Slicers (3):**
-    *   Roast Type Name (Dark, Light, Medium)
-    *   Size (0.2 kg, 0.5 kg, 1.0 kg, 2.5 kg)
-    *   Loyalty Card (Yes/No)
-*   **Charts (3):**
-    *   **Total Sales Over Time:** Line chart showing sales trends.
-    *   **Sales by Country:** Bar chart illustrating geographic sales distribution.
-    *   **Top 5 Customers:** Bar chart identifying the customers with the highest purchase values.
+*   **Sales Trend Analysis:** The interactive timeline allows for tracking revenue performance over time to identify seasonal trends and measure the impact of sales initiatives.
+*   **Product Performance Analysis:** By filtering by **Roast Type** and **Size**, we can determine which products are the most popular and which have untapped potential. For example, the dashboard reveals that Medium Roast is the highest-selling roast type overall.
+*   **Geographic Sales Insights:** The **Sales by Country** chart pinpoints our most lucrative markets, enabling targeted marketing campaigns and resource allocation.
+*   **Customer Segmentation:** The **Loyalty Card** slicer helps us understand the value of our loyalty program by comparing the spending habits of members vs. non-members. This answers the critical question: "Do our loyalty members spend more?"
+*   **High-Value Customer Identification:** The **Top 5 Customers** chart identifies our VIPs, providing a clear focus for customer retention and relationship management efforts.
 
 ## 🛠️ Tools & Techniques Used
 
