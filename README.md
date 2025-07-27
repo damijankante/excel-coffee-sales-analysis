@@ -1,62 +1,98 @@
-# Excel Sales Data Analysis & Visualization: Coffee Sales
+# Excel-Powered Business Intelligence: A Deep Dive into Coffee Sales
 
-## Project Overview
+## 📈 Project Overview
 
-This project provides a comprehensive sales analysis for a coffee business, delivering actionable insights to drive revenue growth and optimize marketing spend. By creating an interactive dashboard, stakeholders can now instantly identify top-performing products, pinpoint key geographic markets, and understand the purchasing behavior of their most valuable customers.
+This project showcases a complete business intelligence workflow, from raw, messy data to a fully interactive and insightful dashboard. The goal was to analyze a coffee sales dataset to uncover actionable insights that could drive revenue, enhance profitability, and inform marketing strategy.
 
-## 📊 Dashboard Features
+The analysis moves beyond simple reporting, demonstrating a robust ETL pipeline, advanced data modeling, and complex analytics—all within Microsoft Excel. The final result is an executive-ready dashboard designed for dynamic exploration and data-driven decision-making.
 
-The Excel dashboard includes the following interactive elements:
+**▶️ Live Demo:** **[Link to a 2-Minute Video Walkthrough on Loom or YouTube]** *(Will be added shortly)*
 
-*   **Sales Trend Analysis:** The interactive timeline allows for tracking revenue performance over time to identify seasonal trends and measure the impact of sales initiatives.
-*   **Product Performance Analysis:** By filtering by **Roast Type** and **Size**, we can determine which products are the most popular and which have untapped potential. For example, the dashboard reveals that Medium Roast is the highest-selling roast type overall.
-*   **Geographic Sales Insights:** The **Sales by Country** chart pinpoints our most lucrative markets, enabling targeted marketing campaigns and resource allocation.
-*   **Customer Segmentation:** The **Loyalty Card** slicer helps us understand the value of our loyalty program by comparing the spending habits of members vs. non-members. This answers the critical question: "Do our loyalty members spend more?"
-*   **High-Value Customer Identification:** The **Top 5 Customers** chart identifies our VIPs, providing a clear focus for customer retention and relationship management efforts.
+## ❓ Key Business Questions Answered
 
-## 🛠️ Tools & Techniques Used
+The dashboard was built to answer critical business questions at a glance:
 
-*   **Microsoft Excel:**
-    *   Data Cleaning & Preparation
-    *   Pivot Tables & Pivot Charts
-    *   Slicers
-    *   Timeline
-    *   Formulas (XLOOKUP, INDEX, MATCH)
-    *   Dashboard Design
+1.  **Sales Performance:** What are our key revenue and profit trends over time, and can we identify seasonality?
+2.  **Product Profitability:** Which products are our bestsellers, and more importantly, which ones are the most *profitable*? Where are our hidden gems with high profit margins?
+3.  **Geographic Hotspots:** Which countries are driving the most sales, and where are the emerging markets?
+4.  **Customer Value & Loyalty:** What is the real lifetime value (CLV) of our customers? Are members of our loyalty program genuinely more valuable than non-members?
+5.  **The 80/20 Rule:** Which vital few customers are generating the majority of our revenue?
 
-## 🖼️ Visualizations (Screenshots)
+## 🖼️ Dashboard Visualizations
 
-**Main Dashboard View:**
+*(Will be added shortly)*
 
-![Main Dashboard](images/Coffee_Sales_Analysis_Dashboard.png)
+**Main Dashboard View**
+![Main Dashboard](placeholder-link-to-your-main-dashboard-image.png)
 
-**Total Sales Over Time Chart:**
+**Pareto Analysis: The 80/20 Rule in Action**
+![Pareto Chart](placeholder-link-to-your-pareto-chart-image.png)
 
-![Total Sales Over Time](images/Coffee_Sales_Analysis_Total_Sales_Over_Time_Chart.png)
+**Geographic Sales Distribution**
+![Map Chart](placeholder-link-to-your-map-chart-image.png)
 
-**Top 5 Customers Chart:**
+## 🛠️ The BI Workflow & Technical Stack
 
-![Top 5 Customers](images/Coffee_Sales_Analysis_Top_5_Customers_Chart.png)
+This project was built using a modern Excel BI toolkit, demonstrating skills across the entire analytics pipeline.
 
-**Sales by Country Chart:**
+### 1. ETL & Data Cleaning (Power Query)
 
-![Total_Sales by Country](images/Coffee_Sales_Analysis_Total_Sales_by_Country_Chart.png)
+The initial data, expanded to 10,000+ orders, was intentionally corrupted with realistic errors to simulate a real-world scenario. A robust ETL (Extract, Transform, Load) pipeline was built in **Power Query** to handle these issues automatically:
 
-## 💾 Data Source
+*   **Data Integration:** Merged three separate tables (`Orders`, `Customers`, `Products`) into a clean, unified dataset, eliminating the need for manual `VLOOKUP` formulas.
+*   **Duplicate Removal:** Identified and removed fully duplicated order entries.
+*   **Data Validation:** Filtered out invalid records, such as orders with a quantity of zero or negative numbers.
+*   **Text Cleansing & Standardization:** Used `Trim`, `Capitalize Each Word`, and `Replace Values` to standardize inconsistent `Country` names (e.g., "  usa ", "USA", "united states" all became "United States").
+*   **Handling Missing Data:** Identified and removed records with critical missing information (e.g., null values in the `Country` field).
+*   **Orphaned Record Removal:** Performed an `Inner Join` to ensure every order record corresponds to a valid customer, removing any orphaned data.
 
-The data used includes 3 sample datasets of:
-* 1000 Orders, including Order ID, Order date, Customer ID, Product ID, and Quantity.
-* 1000 Customers, including Customer Name, Email, Phone Number, Address Line, City, Country, Postcode, Loyalty Card info
-* 48 Products, including Product ID, Coffee Type, Roast Type, Size, Unit Price, Price per 100g, Profit
+### 2. Data Modeling & Advanced Analytics (Power Pivot & DAX)
 
-## 🚀 How to Use / Explore
+The cleaned data was loaded into Excel's **Power Pivot** engine to create a relational Data Model (a star schema). This enabled sophisticated calculations using **DAX (Data Analysis Expressions)**:
 
-1.  **Download the Excel file:** [Coffee Sales Analysis Dashboard Workbook](excel_file/Coffee_Sales_Analysis_Dashboard.xlsx)
-2.  Open the file in Microsoft Excel.
-3.  Interact with the timeline and slicers on the 'Dashboard' sheet to filter the data and observe changes in the charts.
+*   **Calculated Columns** to enrich the data tables:
+    *   `Customer Lifetime Value (CLV)`: Calculates the total revenue generated by each customer.
+    *   `Purchase Frequency`: Counts the number of unique orders placed by each customer.
+*   **DAX Measures** for dynamic, aggregated analysis:
+    *   `Profit Margin %`: A crucial KPI to measure the profitability of any data slice.
+    *   `Unique Order Count`: A distinct count of orders, providing an accurate metric for AOV calculations.
 
-## 💡 Key Learnings & Challenges
+### 3. Data Visualization & Reporting (Excel Dashboard)
 
-*   Combining data from different tables into a single one (Orders F:P). 
-*   Learned to effectively combine a timeline and multiple slicers for granular data filtering.
-*   Ensuring dashboard responsiveness with large pivot table datasets.
+The final insights are presented in a fully interactive dashboard featuring:
+
+*   **KPI Cards:** Clear, at-a-glance metrics for Total Sales, Total Profit, Profit Margin %, and Average Order Value.
+*   **Advanced Charting:**
+    *   **Map Chart:** For intuitive visualization of sales distribution by country.
+    *   **Pareto Chart:** To instantly identify the top 20% of customers who generate 80% of the revenue.
+    *   **Dynamic Combo & Bar Charts:** To explore trends and comparisons.
+*   **Interactive Controls:** Slicers and Timelines allow for seamless filtering of the entire dashboard by Roast Type, Size, Loyalty Status, and Date.
+
+### 4. Synthetic Data Generation (Python)
+
+To create a more challenging and realistic dataset, the original 1,000 orders were expanded to over 10,000 using a **Python** script with the **Pandas** and **Faker** libraries. This process also introduced the specific data quality issues mentioned above, providing a foundation to demonstrate advanced data cleaning skills.
+
+## 🔑 Key Insights & Findings
+
+*(After you finish your analysis, use your dashboard to find 2-3 specific, quantified insights. Replace the text below with your actual findings.)*
+
+*   **Insight 1: [Your Insight Title - e.g., Profit vs. Popularity Paradox]**
+    *   *Finding:* [*(Will be added shortly)*]
+    *   *Business Implication:* [*(Will be added shortly)*]
+
+*   **Insight 2: [Your Insight Title - e.g., The 80/20 Rule in Action]**
+    *   *Finding:* [*(Will be added shortly)*"]
+    *   *Business Implication:* [*(Will be added shortly)*"]
+
+*   **Insight 3: [Your Insight Title - e.g., Quantified Value of the Loyalty Program]**
+    *   *Finding:* [*(Will be added shortly)*]
+    *   *Business Implication:* [*(Will be added shortly)*"]
+
+---
+
+### 🚀 Future Enhancements & Learning Roadmap
+
+*   **Time Intelligence Analysis:** Implement more advanced DAX time intelligence functions like `SAMEPERIODLASTYEAR`, `YTD`, and `MTD` to compare performance against historical periods.
+*   **Market Basket Analysis:** Analyze which products are most frequently purchased together to inform cross-selling strategies and product bundling.
+*   **Predictive Analytics:** Utilize Excel's forecasting tools or Python's `statsmodels` library to build a simple sales forecast based on historical data.
+*   **Migration to Power BI:** For enhanced scalability, collaboration, and cloud-based features, the next logical step would be to migrate this entire data model and report into **Microsoft Power BI**.
