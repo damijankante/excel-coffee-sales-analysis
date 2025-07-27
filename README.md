@@ -8,6 +8,7 @@ The analysis moves beyond simple reporting, demonstrating a robust ETL pipeline,
 
 **▶️ Live Demo:** **[Link to a 2-Minute Video Walkthrough on Loom or YouTube]** *(Will be added shortly)*
 
+
 ## ❓ Key Business Questions Answered
 
 The dashboard was built to answer critical business questions at a glance:
@@ -17,6 +18,7 @@ The dashboard was built to answer critical business questions at a glance:
 3.  **Geographic Hotspots:** Which countries are driving the most sales, and where are the emerging markets?
 4.  **Customer Value & Loyalty:** What is the real lifetime value (CLV) of our customers? Are members of our loyalty program genuinely more valuable than non-members?
 5.  **The 80/20 Rule:** Which vital few customers are generating the majority of our revenue?
+
 
 ## 🖼️ Dashboard Visualizations
 
@@ -30,6 +32,7 @@ The dashboard was built to answer critical business questions at a glance:
 
 **Geographic Sales Distribution**
 ![Map Chart](placeholder-link-to-your-map-chart-image.png)
+
 
 ## 🛠️ The BI Workflow & Technical Stack
 
@@ -72,6 +75,7 @@ The final insights are presented in a fully interactive dashboard featuring:
 
 To create a more challenging and realistic dataset, the original 1,000 orders were expanded to over 10,000 using a **Python** script with the **Pandas** and **Faker** libraries. This process also introduced the specific data quality issues mentioned above, providing a foundation to demonstrate advanced data cleaning skills.
 
+
 ## 🔑 Key Insights & Findings
 
 *(Will be added shortly)*
@@ -89,6 +93,7 @@ To create a more challenging and realistic dataset, the original 1,000 orders we
     *   *Business Implication:* [*(Will be added shortly)*"]
 
 ---
+
 
 ### 🚀 Future Enhancements & Learning Roadmap
 
