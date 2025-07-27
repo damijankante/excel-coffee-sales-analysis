@@ -4,7 +4,7 @@
 
 This project showcases a complete business intelligence workflow, from raw, messy data to a fully interactive and insightful dashboard. The goal was to analyze a coffee sales dataset to uncover actionable insights that could drive revenue, enhance profitability, and inform marketing strategy.
 
-The analysis moves beyond simple reporting, demonstrating a robust ETL pipeline, advanced data modeling, and complex analytics—all within Microsoft Excel. The final result is an executive-ready dashboard designed for dynamic exploration and data-driven decision-making.
+The analysis moves beyond simple reporting, demonstrating a robust ETL pipeline, advanced data modeling, and complex analytic, all within Microsoft Excel. The final result is an executive-ready dashboard designed for dynamic exploration and data-driven decision-making.
 
 **▶️ Live Demo:** **[Link to a 2-Minute Video Walkthrough on Loom or YouTube]** *(Will be added shortly)*
 
