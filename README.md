@@ -74,7 +74,7 @@ To create a more challenging and realistic dataset, the original 1,000 orders we
 
 ## 🔑 Key Insights & Findings
 
-*(After you finish your analysis, use your dashboard to find 2-3 specific, quantified insights. Replace the text below with your actual findings.)*
+*(Will be added shortly)*
 
 *   **Insight 1: [Your Insight Title - e.g., Profit vs. Popularity Paradox]**
     *   *Finding:* [*(Will be added shortly)*]
