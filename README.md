@@ -23,12 +23,15 @@ The dashboard was built to answer critical business questions at a glance:
 ## 🖼️ Dashboard Visualizations
 
 **Main Dashboard View**
+
 ![Main Dashboard](images/Coffee_Sales_Dashboard.png)
 
 **Pareto Analysis: The 80/20 Rule in Action**
+
 ![Pareto Chart](images/Pareto_Chart.png)
 
 **Geographic Sales Distribution**
+
 ![Map Chart](images/Geographical_Sales_Distribution.png)
 
 
