@@ -25,7 +25,7 @@ The dashboard was built to answer critical business questions at a glance:
 *(Will be added shortly)*
 
 **Main Dashboard View**
-![Main Dashboard](placeholder-link-to-your-main-dashboard-image.png)
+![Main Dashboard](images/Coffee_%20Sales_Dashboard.png)
 
 **Pareto Analysis: The 80/20 Rule in Action**
 ![Pareto Chart](placeholder-link-to-your-pareto-chart-image.png)
