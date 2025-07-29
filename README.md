@@ -28,10 +28,10 @@ The dashboard was built to answer critical business questions at a glance:
 ![Main Dashboard](images/Coffee_%20Sales_Dashboard.png)
 
 **Pareto Analysis: The 80/20 Rule in Action**
-![Pareto Chart](placeholder-link-to-your-pareto-chart-image.png)
+![Pareto Chart](images/Pareto_Chart.png)
 
 **Geographic Sales Distribution**
-![Map Chart](placeholder-link-to-your-map-chart-image.png)
+![Map Chart](Geographical_Sales_Distribution.png)
 
 
 ## 🛠️ The BI Workflow & Technical Stack
