@@ -22,16 +22,14 @@ The dashboard was built to answer critical business questions at a glance:
 
 ## 🖼️ Dashboard Visualizations
 
-*(Will be added shortly)*
-
 **Main Dashboard View**
-![Main Dashboard](images/Coffee_%20Sales_Dashboard.png)
+![Main Dashboard](images/Coffee_Sales_Dashboard.png)
 
 **Pareto Analysis: The 80/20 Rule in Action**
 ![Pareto Chart](images/Pareto_Chart.png)
 
 **Geographic Sales Distribution**
-![Map Chart](Geographical_Sales_Distribution.png)
+![Map Chart](images/Geographical_Sales_Distribution.png)
 
 
 ## 🛠️ The BI Workflow & Technical Stack
@@ -40,9 +38,10 @@ This project was built using a modern Excel BI toolkit, demonstrating skills acr
 
 ### 1. ETL & Data Cleaning (Power Query)
 
-The initial data, expanded to 10,000+ orders, was intentionally corrupted with realistic errors to simulate a real-world scenario. A robust ETL (Extract, Transform, Load) pipeline was built in **Power Query** to handle these issues automatically:
+The initial data, expanded to 10,000+ orders, was intentionally corrupted with realistic errors to simulate a real-world scenario. 
+A robust ETL (Extract, Transform, Load) pipeline was built in **Power Query** to handle these issues automatically:
 
-*   **Data Integration:** Merged three separate tables (`Orders`, `Customers`, `Products`) into a clean, unified dataset, eliminating the need for manual `VLOOKUP` formulas.
+*   **Data Integration:** Merged three separate tables (`Orders`, `Customers`, `Products`) into a clean, unified dataset
 *   **Duplicate Removal:** Identified and removed fully duplicated order entries.
 *   **Data Validation:** Filtered out invalid records, such as orders with a quantity of zero or negative numbers.
 *   **Text Cleansing & Standardization:** Used `Trim`, `Capitalize Each Word`, and `Replace Values` to standardize inconsistent `Country` names (e.g., "  usa ", "USA", "united states" all became "United States").
