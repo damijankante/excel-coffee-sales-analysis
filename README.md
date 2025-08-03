@@ -30,8 +30,6 @@ The dashboard was built to answer critical business questions at a glance:
 
 ![Main Dashboard](images/Coffee-Sales-Timeline-and-Slicers.png)
 
-![Timeline and Slicers](images/Coffee-Sales-Pareto-Chart.png)
-
 **KPIs**
 
 ![KPIs](images/Coffee-Sales-KPIs.png)
