@@ -1,7 +1,7 @@
 # Excel & Power BI: A Deep Dive into Coffee Sales
 
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F1C912?logo=power-bi&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F1C912?style=for-the-badge&logo=power-bi&logoColor=fff)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
