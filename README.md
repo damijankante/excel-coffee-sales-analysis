@@ -24,15 +24,33 @@ The dashboard was built to answer critical business questions at a glance:
 
 **Main Dashboard View**
 
-![Main Dashboard](images/Coffee_Sales_Dashboard.png)
+![Main Dashboard](images/Coffee-Sales-Dashboard.png)
+
+**Timeline and Slicers**
+
+![Main Dashboard](images/Coffee-Sales-Timeline-and-Slicers.png)
+
+![Timeline and Slicers](images/Coffee-Sales-Pareto-Chart.png)
+
+**KPIs**
+
+![KPIs](images/Coffee-Sales-KPIs.png)
+
+**Sales over Time**
+
+![Sales over Time](images/Coffee-Sales-Sales-Over-Time.png)
+
+**Sales by Country**
+
+![Sales by Country Chart](images/Coffee-Sales-Sales-by-Country.png)
 
 **Pareto Analysis: The 80/20 Rule in Action**
 
-![Pareto Chart](images/Pareto_Chart.png)
+![Pareto Chart](images/Coffee-Sales-Pareto-Chart.png)
 
-**Geographic Sales Distribution**
+**Top 5 Customers**
 
-![Map Chart](images/Geographical_Sales_Distribution.png)
+![Top 5 Customers](images/Coffee-Sales-Top-5-Customers.png)
 
 
 ## 🛠️ The BI Workflow & Technical Stack
