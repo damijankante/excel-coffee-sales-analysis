@@ -96,19 +96,19 @@ To create a more challenging and realistic dataset, the original 1,000 orders we
 
 ## 🔑 Key Insights & Findings
 
-*(Will be added shortly)*
+The comprehensive dashboard, now including data through July 2025, confirms and reinforces several critical business trends that demand strategic attention.
 
-*   **Insight 1: [Your Insight Title - e.g., Profit vs. Popularity Paradox]**
-    *   *Finding:* [*(Will be added shortly)*]
-    *   *Business Implication:* [*(Will be added shortly)*]
+*   **Insight 1: Sustained Sales Decline Confirmed, with 2025 Trending Lower.**
+    *   *Finding:* After peaking at **$68,746** in 2021, the business has seen a consistent year-over-year decline in revenue, falling to **$52,225** in 2024 (a **24% drop** from the peak). The 2025 data, representing only the first seven months, currently stands at **$33,076**, indicating that the downward trend is continuing.
+    *   *Business Implication:* This is no longer an emerging trend but a sustained pattern. An urgent strategic review is needed to diagnose the root causes—be it market saturation, competitive pressure, or ineffective marketing. The business must implement new strategies to reverse this multi-year decline.
 
-*   **Insight 2: [Your Insight Title - e.g., The 80/20 Rule in Action]**
-    *   *Finding:* [*(Will be added shortly)*"]
-    *   *Business Implication:* [*(Will be added shortly)*"]
+*   **Insight 2: Extreme Geographic Sales Concentration in Key Markets.**
+    *   *Finding:* The business is heavily reliant on a few key markets. The **United States** single-handedly accounts for **$271,849** of the **$394,779** total sales (approximately **69%**). A clear tiering system is visible: Ireland is a strong second-tier market at **$53,302**, while the United Kingdom is a distant third at **$26,411**.
+    *   *Business Implication:* This data dictates a dual strategy. A **defensive, high-investment strategy** is required to protect and grow the dominant U.S. market. Simultaneously, a targeted **growth strategy** should be developed to expand market share in Ireland and the U.K., which have proven potential but are significantly smaller than the U.S.
 
-*   **Insight 3: [Your Insight Title - e.g., Quantified Value of the Loyalty Program]**
-    *   *Finding:* [*(Will be added shortly)*]
-    *   *Business Implication:* [*(Will be added shortly)*"]
+*   **Insight 3: Pareto Principle Validated: High-Value Customers Drive Profitability.**
+    *   *Finding:* The Pareto analysis confirms that a minority of customers drives the majority of revenue. Specifically, the top 5 customers (led by Donny Fries at **$956.93**) contribute over **$4,460** in sales combined. This highlights their immense value, especially when compared to the company-wide Average Order Value of only **$40.01**.
+    *   *Business Implication:* This finding validates the critical need for a VIP customer relationship management (CRM) program. Implementing personalized marketing, exclusive offers, and dedicated support for this top customer segment is crucial for long-term revenue stability and maximizing customer lifetime value.
 
 ---
 
