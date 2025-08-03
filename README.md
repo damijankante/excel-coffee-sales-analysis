@@ -1,7 +1,7 @@
 # Excel & Power BI: A Deep Dive into Coffee Sales
 
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![Power BI](https://custom-icon-badges.demolab.com/badge/Power%20BI-F1C912?logo=power-bi&logoColor=fff)
+![Power BI](https://img.shields.io/badge/Power%20BI-F1C912?logo=power-bi&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
@@ -121,4 +121,3 @@ The comprehensive dashboard confirms and reinforces several critical business tr
 *   **Time Intelligence Analysis:** Implement more advanced DAX time intelligence functions like `SAMEPERIODLASTYEAR`, `YTD`, and `MTD` to compare performance against historical periods.
 *   **Market Basket Analysis:** Analyze which products are most frequently purchased together to inform cross-selling strategies and product bundling.
 *   **Predictive Analytics:** Utilize Excel's forecasting tools or Python's `statsmodels` library to build a simple sales forecast based on historical data.
-*   **Migration to Power BI:** For enhanced scalability, collaboration, and cloud-based features, the next logical step would be to migrate this entire data model and report into **Microsoft Power BI**.
