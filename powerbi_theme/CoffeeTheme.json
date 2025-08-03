@@ -1,0 +1,66 @@
+{
+    "name": "Coffee Barista Theme",
+    "dataColors": [
+        "#8B5E3C",
+        "#C68E4E",
+        "#E5B776",
+        "#4A2C2A",
+        "#A28F7E",
+        "#595959",
+        "#D4C5A3",
+        "#7E9D84"
+    ],
+    "background": "#F5F0E6",
+    "foreground": "#4A2C2A",
+    "tableAccent": "#8B5E3C",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "title": [{
+                    "color": { "solid": { "color": "#4A2C2A" } },
+                    "fontFamily": "Segoe UI Semibold",
+                    "fontSize": 14
+                }],
+                "background": [{
+                    "color": { "solid": { "color": "#F5F0E6" } },
+                    "transparency": 0
+                }],
+                "border": [{
+                    "show": true,
+                    "color": { "solid": { "color": "#D3D3D3" } }
+                }]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [{
+                    "color": { "solid": { "color": "#F5F0E6" } },
+                    "transparency": 0
+                }]
+            }
+        },
+        "card": {
+            "*": {
+                "labels": [{
+                    "color": { "solid": { "color": "#4A2C2A" } },
+                    "fontSize": 36
+                }],
+                "categoryLabels": [{
+                    "color": { "solid": { "color": "#595959" } }
+                }]
+            }
+        },
+        "slicer": {
+            "*": {
+                "header": [{
+                    "fontColor": { "solid": { "color": "#4A2C2A" } },
+                    "background": { "solid": { "color": "#E5B776" } }
+                }],
+                "items": [{
+                    "fontColor": { "solid": { "color": "#4A2C2A" } },
+                    "background": { "solid": { "color": "#F5F0E6" } }
+                }]
+            }
+        }
+    }
+}
