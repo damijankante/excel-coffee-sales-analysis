@@ -1,6 +1,7 @@
-# Excel-Powered Business Intelligence: <br> A Deep Dive into Coffee Sales
+# Excel & Power BI: A Deep Dive into Coffee Sales
 
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Power BI](https://custom-icon-badges.demolab.com/badge/Power%20BI-F1C912?logo=power-bi&logoColor=fff)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
@@ -10,11 +11,13 @@ This project showcases a complete business intelligence workflow, transforming o
 
 The analysis moves beyond simple reporting, demonstrating a robust ETL pipeline, advanced data modeling, and complex analytics, all within Microsoft Excel. The final result is an executive-ready dashboard designed for dynamic exploration and data-driven decision-making.
 
-## 📊 Live Interactive Dashboard
+## 📊 Live Interactive Dashboards
 
-**Click the link below to interact with the full dashboard directly in your browser. No download required.**
+This project was built in both Excel and Power BI to demonstrate proficiency across the Microsoft BI stack.
 
-**👉 Interact with the** [**Live Dashboard**](https://1drv.ms/x/c/fa3f0ea2daf0e4f7/ESvb5WolxcJBgHHqOvHHE40BoWJVbrlRCIiCJZys_0CBng?e=EfveXj) **on Excel for the Web**
+🔗 **Interact with the** [**Power BI Dashboard**](https://app.powerbi.com/view?r=eyJrIjoiMWQxODhlNjAtYzRiZS00YzQ4LWFhYmUtMDgyNTQ1NmRlZDk2IiwidCI6ImQyNGE2OWY0LWUyNWMtNGQxMy1iYWRmLWYwNDA2YTE2MWUxZCIsImMiOjl9)
+
+💻 **Interact with the** [**Excel Dashboard**](https://1drv.ms/x/c/fa3f0ea2daf0e4f7/ESvb5WolxcJBgHHqOvHHE40BoWJVbrlRCIiCJZys_0CBng?e=EfveXj) **on Excel for the Web**
 
 **⏯️ Watch a** [**2-Minute Video Walkthrough**](https://www.youtube.com/your-video-link-here) **on YouTube** *(Will be added shortly)*
 
@@ -78,6 +81,14 @@ The final insights are presented in a fully interactive dashboard featuring:
 
 To create a more challenging and realistic dataset, the original 1,000 orders were expanded to over 10,000 using a **Python** script with the **Pandas** and **Faker** libraries. This process also introduced the specific data quality issues mentioned above, providing a foundation to demonstrate advanced data cleaning skills.
 
+### 5. Version 2: Migration to Power BI
+
+To demonstrate scalability and proficiency in enterprise-level cloud BI tools, the entire project was migrated from Excel to **Power BI**. This process involved:
+*   **Reusing M Code:** The complete Power Query ETL pipeline was migrated by transferring the existing M code directly into Power BI.
+*   **DAX Measures:** All DAX calculations were re-created, and a dedicated `Key Measures` table was established as a best practice for model organization.
+*   **Enhanced Visuals:** Leveraging Power BI's more advanced visualization engine, including a more dynamic Map visual and a robust, DAX-driven Pareto chart.
+*   **Publishing to Service:** The final report was published to the Power BI Service and made publicly available, demonstrating the full end-to-end workflow from desktop to cloud.
+
 
 ## 🔑 Strategic Recommendations & Findings
 
@@ -91,9 +102,9 @@ The comprehensive dashboard confirms and reinforces several critical business tr
     *   **Finding:** The business is heavily reliant on a few key markets. The **United States** single-handedly accounts for **$271,849** of the **$394,779** total sales (approximately **69%**). A clear tiering system is visible: Ireland is a strong second-tier market at **$53,302**, while the United Kingdom is a distant third at **$26,411**.
     *   *Business Implication:* This data dictates a dual strategy. A **defensive, high-investment strategy** is required to protect and grow the dominant U.S. market. Simultaneously, a targeted **growth strategy** should be developed to expand market share in Ireland and the U.K., which have proven potential but are significantly smaller than the U.S.
 
-*   **Recommendation 3: Prioritize High-Value Customer Retention.**
-    *   **Finding:** The Pareto analysis confirms that a minority of customers drives the majority of revenue. Specifically, the top 5 customers (led by Donny Fries at **$956.93**) contribute over **$4,460** in sales combined. This highlights their immense value, especially when compared to the company-wide Average Order Value of only **$40.01**.
-    *   **Business Implication:** This finding validates the critical need for a VIP customer relationship management (CRM) program. Implementing personalized marketing, exclusive offers, and dedicated support for this top customer segment is crucial for long-term revenue stability and maximizing customer lifetime value.
+*   **Recommendation 3: Focus on Broad Customer Acquisition, Not Just VIP Retention.**
+    *   **Finding:** The Pareto analysis reveals a crucial insight: while individual top customers spend significantly (~$950 vs. a $40 average order), the Top 10 customers combined only account for approximately **2% of the total company revenue**.
+    *   **Business Implication:** This finding challenges the classic 80/20 rule for this business. The company's revenue is not concentrated in a few VIPs but is driven by a very broad base of smaller customers (a "long tail"). Therefore, while retaining high-value individuals is important, the primary strategic focus should be on broad-based marketing and customer acquisition strategies to attract and grow the wider customer base, as this is the true engine of revenue.
 
 ---
 
