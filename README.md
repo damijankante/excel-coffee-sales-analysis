@@ -17,7 +17,7 @@ This project was built in both Excel and Power BI to demonstrate proficiency acr
 
 🔗 **Interact with the** [**Power BI Dashboard**](https://app.powerbi.com/view?r=eyJrIjoiMWQxODhlNjAtYzRiZS00YzQ4LWFhYmUtMDgyNTQ1NmRlZDk2IiwidCI6ImQyNGE2OWY0LWUyNWMtNGQxMy1iYWRmLWYwNDA2YTE2MWUxZCIsImMiOjl9)
 
-💻 **Interact with the** [**Excel Dashboard**](https://1drv.ms/x/c/fa3f0ea2daf0e4f7/ESvb5WolxcJBgHHqOvHHE40BoWJVbrlRCIiCJZys_0CBng?e=EfveXj) **on Excel for the Web**
+💻 **Interact with the** [**Excel Dashboard**](https://1drv.ms/x/c/fa3f0ea2daf0e4f7/IQQxkb4IXyc5QYAVyjTGIb-MAfvMcm16P1llBicbmCjhrSc) **on Excel for the Web**
 
 **⏯️ Watch a** [**2-Minute Video Walkthrough**](https://www.youtube.com/your-video-link-here) **on YouTube** *(Will be added shortly)*
 
