@@ -10,6 +10,12 @@ This project showcases a complete business intelligence workflow, transforming o
 
 The analysis moves beyond simple reporting, demonstrating a robust ETL pipeline, advanced data modeling, and complex analytics, all within Microsoft Excel. The final result is an executive-ready dashboard designed for dynamic exploration and data-driven decision-making.
 
+## 📊 Live Interactive Dashboard
+
+**Click the link below to interact with the full dashboard directly in your browser. No download required.**
+
+**[➡️ Interact with the Live Dashboard on Excel for the Web](https://1drv.ms/x/c/fa3f0ea2daf0e4f7/EZcFK3n3_KFGgd1cnmKWf4kBb_ibaMaPR4091tUoEymv5w?e=KtwMJF)**
+
 **▶️ Live Demo:** **[Link to a 2-Minute Video Walkthrough on Loom or YouTube]** *(Will be added shortly)*
 
 
@@ -73,24 +79,31 @@ The final insights are presented in a fully interactive dashboard featuring:
 To create a more challenging and realistic dataset, the original 1,000 orders were expanded to over 10,000 using a **Python** script with the **Pandas** and **Faker** libraries. This process also introduced the specific data quality issues mentioned above, providing a foundation to demonstrate advanced data cleaning skills.
 
 
-## 🔑 Strategic Recommendations
+## 🔑 Strategic Recommendations & Findings
 
-The comprehensive dashboard, now including data through July 2025, confirms and reinforces several critical business trends that demand strategic attention.
+The comprehensive dashboard confirms and reinforces several critical business trends that demand strategic attention.
 
-*   **Insight 1: Sustained Sales Decline Confirmed, with 2025 Trending Lower.**
+*   **Recommendation 1: Address Sustained Sales Decline.**
     *   *Finding:* After peaking at **$68,746** in 2021, the business has seen a consistent year-over-year decline in revenue, falling to **$52,225** in 2024 (a **24% drop** from the peak). The 2025 data, representing only the first seven months, currently stands at **$33,076**, indicating that the downward trend is continuing.
     *   *Business Implication:* This is no longer an emerging trend but a sustained pattern. An urgent strategic review is needed to diagnose the root causes. Those could include market saturation, competitive pressure, or ineffective marketing. The business must implement new strategies to reverse this multi-year decline.
 
-*   **Insight 2: Extreme Geographic Sales Concentration in Key Markets.**
+*   **Recommendation 2: Implement a Dual-Strategy for Geographic Markets.**
     *   *Finding:* The business is heavily reliant on a few key markets. The **United States** single-handedly accounts for **$271,849** of the **$394,779** total sales (approximately **69%**). A clear tiering system is visible: Ireland is a strong second-tier market at **$53,302**, while the United Kingdom is a distant third at **$26,411**.
     *   *Business Implication:* This data dictates a dual strategy. A **defensive, high-investment strategy** is required to protect and grow the dominant U.S. market. Simultaneously, a targeted **growth strategy** should be developed to expand market share in Ireland and the U.K., which have proven potential but are significantly smaller than the U.S.
 
-*   **Insight 3: Pareto Principle Validated: High-Value Customers Drive Profitability.**
+*   **Recommendation 3: Prioritize High-Value Customer Retention.**
     *   *Finding:* The Pareto analysis confirms that a minority of customers drives the majority of revenue. Specifically, the top 5 customers (led by Donny Fries at **$956.93**) contribute over **$4,460** in sales combined. This highlights their immense value, especially when compared to the company-wide Average Order Value of only **$40.01**.
     *   *Business Implication:* This finding validates the critical need for a VIP customer relationship management (CRM) program. Implementing personalized marketing, exclusive offers, and dedicated support for this top customer segment is crucial for long-term revenue stability and maximizing customer lifetime value.
 
 ---
 
+## 🚀 How to Use / Local Setup
+
+1.  **Download the Project:** Clone this repository or download the ZIP file.
+2.  **Explore the Dashboard:** Open the `Coffee Sales Analysis.xlsx` file in Microsoft Excel (2019 or later recommended). Interact with the slicers and timeline to explore the data.
+3.  **(Optional) Regenerate Data:** To run the data generation script, you will need Python with the `pandas` and `faker` libraries installed. Run the `expand_data.py` script from your terminal to regenerate the `_expanded.csv` files.
+
+---
 
 ### 🚀 Future Enhancements & Learning Roadmap
 
