@@ -14,7 +14,7 @@ The analysis moves beyond simple reporting, demonstrating a robust ETL pipeline,
 
 **Click the link below to interact with the full dashboard directly in your browser. No download required.**
 
-**👉 [Interact with the Live Dashboard on Excel for the Web](https://1drv.ms/x/c/fa3f0ea2daf0e4f7/EZcFK3n3_KFGgd1cnmKWf4kBb_ibaMaPR4091tUoEymv5w?e=KtwMJF)**
+**💻 [Interact with the Live Dashboard on Excel for the Web](https://1drv.ms/x/c/fa3f0ea2daf0e4f7/EZcFK3n3_KFGgd1cnmKWf4kBb_ibaMaPR4091tUoEymv5w?e=KtwMJF)**
 
 **▶️ Live Demo:** **[Link to a 2-Minute Video Walkthrough on Loom or YouTube]** *(Will be added shortly)*
 
@@ -105,7 +105,7 @@ The comprehensive dashboard confirms and reinforces several critical business tr
 
 ---
 
-### 🚀 Future Enhancements & Learning Roadmap
+## 🚀 Future Enhancements & Learning Roadmap
 
 *   **Time Intelligence Analysis:** Implement more advanced DAX time intelligence functions like `SAMEPERIODLASTYEAR`, `YTD`, and `MTD` to compare performance against historical periods.
 *   **Market Basket Analysis:** Analyze which products are most frequently purchased together to inform cross-selling strategies and product bundling.
