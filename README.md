@@ -14,7 +14,7 @@ The analysis moves beyond simple reporting, demonstrating a robust ETL pipeline,
 
 **Click the link below to interact with the full dashboard directly in your browser. No download required.**
 
-**[➡️ Interact with the Live Dashboard on Excel for the Web](https://1drv.ms/x/c/fa3f0ea2daf0e4f7/EZcFK3n3_KFGgd1cnmKWf4kBb_ibaMaPR4091tUoEymv5w?e=KtwMJF)**
+**➡️ [Interact with the Live Dashboard on Excel for the Web](https://1drv.ms/x/c/fa3f0ea2daf0e4f7/EZcFK3n3_KFGgd1cnmKWf4kBb_ibaMaPR4091tUoEymv5w?e=KtwMJF)**
 
 **▶️ Live Demo:** **[Link to a 2-Minute Video Walkthrough on Loom or YouTube]** *(Will be added shortly)*
 
