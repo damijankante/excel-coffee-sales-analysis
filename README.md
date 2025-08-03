@@ -100,7 +100,7 @@ The comprehensive dashboard, now including data through July 2025, confirms and 
 
 *   **Insight 1: Sustained Sales Decline Confirmed, with 2025 Trending Lower.**
     *   *Finding:* After peaking at **$68,746** in 2021, the business has seen a consistent year-over-year decline in revenue, falling to **$52,225** in 2024 (a **24% drop** from the peak). The 2025 data, representing only the first seven months, currently stands at **$33,076**, indicating that the downward trend is continuing.
-    *   *Business Implication:* This is no longer an emerging trend but a sustained pattern. An urgent strategic review is needed to diagnose the root causes—be it market saturation, competitive pressure, or ineffective marketing. The business must implement new strategies to reverse this multi-year decline.
+    *   *Business Implication:* This is no longer an emerging trend but a sustained pattern. An urgent strategic review is needed to diagnose the root causes. Those could include market saturation, competitive pressure, or ineffective marketing. The business must implement new strategies to reverse this multi-year decline.
 
 *   **Insight 2: Extreme Geographic Sales Concentration in Key Markets.**
     *   *Finding:* The business is heavily reliant on a few key markets. The **United States** single-handedly accounts for **$271,849** of the **$394,779** total sales (approximately **69%**). A clear tiering system is visible: Ireland is a strong second-tier market at **$53,302**, while the United Kingdom is a distant third at **$26,411**.
